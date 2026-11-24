@@ -3,7 +3,7 @@
 AI 도입을 검토하는 회사에 **URL 하나로 보여주는** FDE(Forward Deployed Engineer, 현장 투입형 AX 엔지니어) 포트폴리오 데모입니다.
 문서 더미가 아니라, 그 자리에서 눌러볼 수 있는 **사내 AI 지식베이스 시뮬레이터**와 **절감액 계산기**가 들어 있습니다.
 
-- **라이브 데모**: https://jackdinealkim.github.io/fde-ax-portfolio/
+- **라이브 데모**: https://jackdinealkim.github.io/fde-ax-portfolio/ — 저장소 **Settings → Pages → Deploy from a branch: `main` / `/ (root)`** 를 켜면 위 주소에서 바로 열립니다. (파일 자체는 `index.html` 하나로 완결되어 있어 어떤 정적 호스팅에서도 동작합니다.)
 - **문의**: mashiaro@naver.com
 
 ![데스크톱 히어로](screenshots/01-desktop-hero.png)
