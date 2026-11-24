@@ -1,0 +1,185 @@
+{
+  "url": "file:///workspace/documents/fde-portfolio-demo/index.html",
+  "checks": [
+    {
+      "name": "3D hero initialised",
+      "ok": true,
+      "detail": "hero-visual ready"
+    },
+    {
+      "name": "hero uses WebGL (not fallback)",
+      "ok": true,
+      "detail": "hero-visual ready"
+    },
+    {
+      "name": "hero labels present",
+      "ok": true,
+      "detail": "5 labels"
+    },
+    {
+      "name": "commerce Q1 auto-answer",
+      "ok": true,
+      "detail": "이번 주 안전재고 밑으로 떨어진 상품 있어?"
+    },
+    {
+      "name": "citation badges rendered",
+      "ok": true,
+      "detail": "2"
+    },
+    {
+      "name": "source badges listed",
+      "ok": true,
+      "detail": "['ERP 발주DB', '물류 WMS 입고예정', '슬랙 #물류']"
+    },
+    {
+      "name": "confidence chip",
+      "ok": true,
+      "detail": "근거 3건 인용\n신뢰도 96%\n처리 1.24s"
+    },
+    {
+      "name": "question button changes answer",
+      "ok": true,
+      "detail": "지난달 반품률 가장 높은 카테고리는?"
+    },
+    {
+      "name": "sources change with question",
+      "ok": true,
+      "detail": "['ERP 반품DB', 'CS 상담 로그', '상세페이지 기획서']"
+    },
+    {
+      "name": "office tab switches preset",
+      "ok": true,
+      "detail": "3.3% 원천징수 신고 일정 언제까지야?"
+    },
+    {
+      "name": "office tab aria-selected",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "office sources differ",
+      "ok": true,
+      "detail": "['사내 세무 캘린더', '국세청 원천징수 안내', '회계 ERP 급여대장']"
+    },
+    {
+      "name": "answer panel labelled by active tab",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "free-text search matches",
+      "ok": true,
+      "detail": "연차 미사용 수당 계산 기준"
+    },
+    {
+      "name": "no-evidence path shows 근거 없음",
+      "ok": true,
+      "detail": "● 근거 없음 — 답변 생성 중단\n· 환각 방지 모드 작동"
+    },
+    {
+      "name": "no-evidence warning chip",
+      "ok": true,
+      "detail": "근거 없음 · 신뢰도 31%\n응답 0.42s"
+    },
+    {
+      "name": "no sources shown on no-evidence",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "commerce search 반품",
+      "ok": true,
+      "detail": "지난달 반품률 가장 높은 카테고리는?"
+    },
+    {
+      "name": "ROI default hours",
+      "ok": true,
+      "detail": "175시간"
+    },
+    {
+      "name": "ROI default annual",
+      "ok": true,
+      "detail": "5,249만 원"
+    },
+    {
+      "name": "ROI default payback",
+      "ok": true,
+      "detail": "1.1개월"
+    },
+    {
+      "name": "slider changes numbers",
+      "ok": true,
+      "detail": "437시간 / 13,123만 원 / 0.4개월"
+    },
+    {
+      "name": "people output updated",
+      "ok": true,
+      "detail": "20명"
+    },
+    {
+      "name": "minute/wage sliders update",
+      "ok": true,
+      "detail": "583시간 / 27,996만 원 / 0.2개월 / 40,000원"
+    },
+    {
+      "name": "package switch changes payback",
+      "ok": true,
+      "detail": "0.2개월 -> 0.5개월"
+    },
+    {
+      "name": "package aria-pressed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "mailto carries computed numbers",
+      "ok": true,
+      "detail": "mailto:mashiaro@naver.com?subject=%5BFDE%20%EB%AC%B8%EC%9D%98%5D%20%EC%A0%88%EA%B0%90%20%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9"
+    },
+    {
+      "name": "all sections revealed after scroll",
+      "ok": true,
+      "detail": "0 hidden"
+    },
+    {
+      "name": "no horizontal overflow (desktop)",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "mobile hero visual active",
+      "ok": true,
+      "detail": "hero-visual ready"
+    },
+    {
+      "name": "no horizontal overflow (mobile)",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "mobile sections revealed after scroll",
+      "ok": true,
+      "detail": "0 hidden"
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "roi_default": {
+    "hours": "175시간",
+    "annual": "5,249만 원",
+    "payback": "1.1개월",
+    "note": "직원 8명이 월 175시간 — 약 22일치 업무를 되찾습니다. 도입비 475만 원은 1.1개월 만에 회수됩니다."
+  },
+  "roi_changed": {
+    "hours": "583시간",
+    "annual": "27,996만 원",
+    "payback": "0.5개월",
+    "mail": "mailto:mashiaro@naver.com?subject=%5BFDE%20%EB%AC%B8%EC%9D%98%5D%20%EC%A0%88%EA%B0%90%20%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98%2020%EB%AA%85%C2%B7120%EB%"
+  },
+  "summary": {
+    "passed": 32,
+    "failed": 0,
+    "console_errors": 0,
+    "page_errors": 0
+  }
+}
